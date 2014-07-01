@@ -106,7 +106,7 @@ CBCharacteristic *disconnect_characteristic;
     }
     
     [self.commandDelegate sendPluginResult:pluginResult callbackId:command.callbackId];
-    connectCallbackId = nil;
+    //connectCallbackId = nil;
 }
 
 // BLE specific plugin (future) should have write(uuid, characteristic, value)
